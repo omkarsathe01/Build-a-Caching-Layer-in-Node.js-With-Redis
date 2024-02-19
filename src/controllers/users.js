@@ -1,7 +1,7 @@
 const UserController = {
   getAll: async (req, res) => {
     // simulate the time to retrieve the user list
-    await new Promise((resolve) => setTimeout(resolve, 250));
+    await new Promise((resolve) => setTimeout(resolve, 300));
     // the user list retrieved with a query or an API call
     let users = [
       { id: 1, email: "john.doe@example.com", name: "John Doe" },
